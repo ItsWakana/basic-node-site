@@ -9,6 +9,7 @@ const port = 3000;
 app.use("/wiki", wiki);
 app.use("/shop", shop);
 
+
 app.get("/", (req, res) => {
     res.send("Home Page Main");
 })
